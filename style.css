@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #38251d;
+    text-align: center;
+}
+
+header {
+    background-color: #8b2e24;
+    color: white;
+    padding: 30px 20px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+main {
+    padding: 30px 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000015;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #8b2e24;
+}
+
+p {
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #8b2e24;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-produto {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 3px 10px #00000020;
+    cursor: pointer;
+}
+
+.card-produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#produto-detalhes img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+button {
+    background-color: #8b2e24;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #8b2e24;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
